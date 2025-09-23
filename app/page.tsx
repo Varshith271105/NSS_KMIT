@@ -16,7 +16,7 @@ export default function HomePage() {
               Welcome To <span className="text-cyan-400">NSS KMIT</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Your Gateway to Service, Leadership, and Community Impact
+              "Not Me, But You"
             </p>
           </div>
 
@@ -50,10 +50,9 @@ export default function HomePage() {
             <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
             <h3 className="text-3xl font-semibold text-slate-700 mb-6">NSS KMIT: Your Gateway to Service</h3>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              NSS KMIT is a service-oriented community where like-minded young minds, in coordination to providing you
-              with an enriching educational experience that empowers you to achieve your aspirations and shape a lasting
-              impact through service, focus and connect on a journey of intellectual growth, personal development, and
-              professional success, guided by a spirit of service and contribution to the greater good.
+              "NSS KMIT is a vibrant community where young, passionate minds come together to grow, learn, and make a difference.
+               We focus on blending education with service, empowering you to chase your dreams,
+               develop personally and professionally, and create a positive impact."
             </p>
           </div>
         </div>
