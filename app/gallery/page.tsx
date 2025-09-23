@@ -48,20 +48,12 @@ const galleryItems = [
     description: "Volunteers helping with donor registration",
   },
   {
-    id: 6,
+    id: 7,
     src: "/unity.jpg",
     title: "Unity Pledge Ceremony",
     category: "National Service",
-    event: "ekta-divas",
-    description: "Students taking the unity pledge",
-  },
-  {
-    id: 6,
-    src: "/ekta.jpg",
-    title: "Ekta Ceremony",
-    category: "National Service",
-    event: "ekta-divas",
-    description: "Students taking the unity pledge",
+    event: "Unity-March",
+    description: "Volunteers promoting unity",
   }
 ]
 
