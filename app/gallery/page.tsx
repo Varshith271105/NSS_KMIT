@@ -49,7 +49,7 @@ const galleryItems = [
   },
   {
     id: 6,
-    src: "/ekta.jpg",
+    src: "/unity.jpg",
     title: "Unity Pledge Ceremony",
     category: "National Service",
     event: "ekta-divas",
@@ -62,14 +62,6 @@ const galleryItems = [
     category: "National Service",
     event: "ekta-divas",
     description: "Students taking the unity pledge",
-  },
-  {
-    id: 7,
-    src: "/unity.jpg",
-    title: "Unity Pledge Ceremony",
-    category: "National Service",
-    event: "Unity-March",
-    description: "Volunteers promoting unity",
   }
 ]
 
