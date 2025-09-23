@@ -69,7 +69,7 @@ export default function AboutPage() {
             About <span className="text-cyan-400">NSS KMIT</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Empowering Communities Through Service, Leadership, and Social Impact
+            Igniting Change Through Service, Leadership, and Social Good
           </p>
         </div>
       </section>
