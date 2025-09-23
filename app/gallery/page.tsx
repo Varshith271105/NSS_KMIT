@@ -9,7 +9,7 @@ import { Search, X } from "lucide-react"
 const galleryItems = [
   {
     id: 1,
-    src: "/gallery/rakhi.jpg",
+    src: "/rakhi.jpg",
     title: "Rakhi for Rakshak Ceremony",
     category: "Social Service",
     event: "rakhi-for-rakshak",
@@ -17,7 +17,7 @@ const galleryItems = [
   },
   {
     id: 2,
-    src: "/gallery/ekta.jpg",
+    src: "/ekta.jpg",
     title: "Unity Day March",
     category: "National Service",
     event: "ekta-divas",
@@ -25,7 +25,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    src: "/gallery/plant.jpg",
+    src: "/plant.jpg",
     title: "Tree Plantation Drive",
     category: "Environment",
     event: "tree-plantation",
@@ -33,7 +33,7 @@ const galleryItems = [
   },
   {
     id: 4,
-    src: "/gallery/kids.jpg",
+    src: "/kids.jpg",
     title: "Education Outreach Program",
     category: "Education",
     event: "education-outreach",
@@ -41,7 +41,7 @@ const galleryItems = [
   },
   {
     id: 5,
-    src: "/gallery/blood.jpg",
+    src: "/blood.jpg",
     title: "Blood Donor Registration",
     category: "Healthcare",
     event: "blood-donation",
@@ -49,11 +49,27 @@ const galleryItems = [
   },
   {
     id: 6,
-    src: "/gallery/ekta.jpg",
+    src: "/ekta.jpg",
     title: "Unity Pledge Ceremony",
     category: "National Service",
     event: "ekta-divas",
     description: "Students taking the unity pledge",
+  },
+  {
+    id: 6,
+    src: "/ekta.jpg",
+    title: "Ekta Ceremony",
+    category: "National Service",
+    event: "ekta-divas",
+    description: "Students taking the unity pledge",
+  },
+  {
+    id: 7,
+    src: "/unity.jpg",
+    title: "Unity Pledge Ceremony",
+    category: "National Service",
+    event: "Unity-March",
+    description: "Volunteers promoting unity",
   }
 ]
 
