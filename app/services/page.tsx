@@ -104,7 +104,7 @@ export default function ServicesPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Our <span className="text-cyan-400">Services</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">Empowering Communities Through NSS KMIT</p>
+          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">Uplifting Communities with NSS KMIT’s Dedicated Efforts</p>
           <div className="w-24 h-1 bg-cyan-500 mx-auto mt-8"></div>
         </div>
       </section>
