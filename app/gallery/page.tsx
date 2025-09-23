@@ -64,9 +64,7 @@ const categories = [
   "Cultural",
   "National Service",
   "Environment",
-  "Education",
-  "Community Development",
-  "Training",
+  "Education"
 ]
 
 export default function GalleryPage() {
