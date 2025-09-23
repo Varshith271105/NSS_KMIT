@@ -35,7 +35,7 @@ const executiveBoard = [
   {
     name: "Nithya",
     position: "TREASURER",
-    image: "/Treasurer.jpg",
+    image: "/hr.jpg",
   },
   {
     name: "Maanvith",
