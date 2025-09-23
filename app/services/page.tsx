@@ -13,7 +13,7 @@ const services = [
     icon: Heart,
     description: "Celebrating and honoring our protectors with traditional rakhi ceremonies",
     fullDescription:
-      "A heartwarming initiative where NSS volunteers tie rakhis to police officers, security personnel, and other protectors of society, expressing gratitude for their service.",
+       "A heartfelt initiative where NSS volunteers tie rakhis to police officers, security personnel, and other society guardians, showing deep gratitude for their dedication.",
     image: "/placeholder.svg?key=rakhi",
     category: "Social Service",
   },
