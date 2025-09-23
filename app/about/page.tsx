@@ -5,57 +5,57 @@ const executiveBoard = [
   {
     name: "Nithin Chowdary",
     position: "PRESIDENT",
-    image: "/professional-young-man-in-suit-smiling.jpg",
+    image: "/President.jpg",
   },
   {
     name: "Nithya Sanjana",
     position: "SECRETARY",
-    image: "/professional-young-woman-in-business-attire.jpg",
+    image: "/secretary.jpg",
   },
   {
     name: "Saanvi",
     position: "VICE-PRESIDENT",
-    image: "/confident-young-woman-in-professional-attire.jpg",
+    image: "/vice_president.jpg",
   },
   {
     name: "Hemanth",
     position: "ASSOCIATE-PRESIDENT",
-    image: "/young-man-in-casual-professional-wear.jpg",
+    image: "/associative_president.jpg",
   },
   {
     name: "Ramalaxmi",
     position: "PUBLIC RELATIONS",
-    image: "/professional-young-woman-smiling.jpg",
+    image: "/pr.jpg",
   },
   {
     name: "Rishi",
     position: "HUMAN RESOURCES",
-    image: "/young-man-in-white-shirt-professional.jpg",
+    image: "/hr.jpg",
   },
   {
     name: "Nithya",
     position: "TREASURER",
-    image: "/professional-young-woman-in-business-suit.jpg",
+    image: "/Treasurer.jpg",
   },
   {
     name: "Maanvith",
     position: "DOCUMENTATION HEAD",
-    image: "/young-man-in-professional-attire-with-documents.jpg",
+    image: "/documentation_head.jpg",
   },
   {
     name: "Anjali",
     position: "PHOTOGRAPHY CONTENT-CREATION",
-    image: "/creative-young-woman-with-camera.jpg",
+    image: "/photo_content_head.jpg",
   },
   {
     name: "Sarayu",
     position: "DIGITAL HEAD",
-    image: "/tech-savvy-young-woman-with-laptop.jpg",
+    image: "/digital_head.jpg",
   },
   {
     name: "Sree Harshitha",
     position: "COORDINATOR IN-CHARGE",
-    image: "/organized-young-woman-in-professional-setting.jpg",
+    image: "/COORDINATOR IN-CHARGE.jpg",
   },
 ]
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
             About <span className="text-cyan-400">NSS KMIT</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Igniting Change Through Service, Leadership, and Social Good
+            Empowering Communities Through Service, Leadership, and Social Impact
           </p>
         </div>
       </section>
@@ -123,22 +123,20 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a dynamic,
-                student-led community dedicated to driving social good.
-                Since its start, NSS KMIT has led impactful community service and social development efforts,
-                inspiring students to grow while giving back.
-
+                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a vibrant
+                student-led organization that has been at the forefront of community service and social development
+                since its inception. Our chapter is dedicated to fostering a spirit of service among students while
+                providing them with opportunities to contribute meaningfully to society.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our passionate volunteers lead diverse initiatives, including educational programs, health camps,
-                environmental efforts, and social outreach, to create meaningful change. 
-                From organizing health checkups to supporting local communities, we believe in the power of young
-                minds united for a shared purpose.
-
+                Through various initiatives ranging from educational programs and health camps to environmental
+                conservation and social outreach, our team of dedicated volunteers works tirelessly to bring positive
+                change and support to those in need. We believe in the power of collective action and the impact that
+                young minds can have when united for a common cause.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Join NSS KMIT to make a difference, build leadership skills,
-                and leave a lasting positive impact on society!
+                Join us in our mission to make a difference, develop leadership skills, and create lasting positive
+                impact in our communities and beyond.
               </p>
             </div>
             <div className="flex justify-center">

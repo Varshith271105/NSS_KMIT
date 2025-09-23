@@ -1,8 +1,48 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Users, GraduationCap, HandHeart, Globe } from "lucide-react"
+"use client";
+
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Users, GraduationCap, HandHeart, Globe, ArrowLeft, ArrowRight } from "lucide-react";
+import { useState } from "react";
 
 export default function HomePage() {
+  const testimonials = [
+    {
+      image: "/Anandanam-Subramanyam.png",
+      quote: `"As the Secretary of Keshav Society, I am deeply proud of our volunteers' unwavering dedication. Their commitment to community service, environmental sustainability, and education initiatives exemplifies the values we hold dear. Our NSS members embody social responsibility, enriching both their personal growth and the communities they serve. Together, we continue to inspire fellow students to make a meaningful impact in society."`,
+      name: "Shri. Dr. Annadanam Subramanyam",
+      title: "Secretary, Keshav society",
+    },
+    {
+      image: "/deepaganu-mam.png",
+      quote: `"As the Academic Director of KMIT, I am immensely proud of our National Service Scheme (NSS) unit. The dedication and commitment shown by our NSS volunteers in various community service activities reflect the core values of our institution. Their involvement in social welfare, environmental sustainability, and education drives has not only benefited the community but also enriched their personal growth. The NSS unit at KMIT is a beacon of social responsibility and continues to inspire students to contribute positively to society."`,
+      name: "Mrs. Deepa Ganu Mam",
+      title: "Academic Director, KMIT",
+    },
+    {
+      image: "/Malleswari-Mam.jpg",
+      quote: `"I extend my heartfelt appreciation to the NSS unit at KMIT for their remarkable contributions to society. The selfless efforts of our NSS volunteers in various community service activities have made a significant difference in the lives of many. Their projects in health, education, and environmental conservation are a testament to their commitment to social welfare. The NSS unit not only enhances the holistic development of our students but also strengthens the bond between the institution and the community. We are proud to support such a noble initiative."`,
+      name: "Mrs. Malleswari Mam",
+      title: "Principal, KMIT",
+    },
+  ];
+
+  const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
+
+  const goToNextTestimonial = () => {
+    setCurrentTestimonialIndex((prevIndex) =>
+      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const goToPreviousTestimonial = () => {
+    setCurrentTestimonialIndex((prevIndex) =>
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+    );
+  };
+
+  const currentTestimonial = testimonials[currentTestimonialIndex];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -10,8 +50,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[url('/nss-logo-pattern.jpg')] opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
-            <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
-            </div>
+            <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center"></div>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
               Welcome To <span className="text-cyan-400">NSS KMIT</span>
             </h1>
@@ -50,9 +89,9 @@ export default function HomePage() {
             <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
             <h3 className="text-3xl font-semibold text-slate-700 mb-6">NSS KMIT: Your Gateway to Service</h3>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              "NSS KMIT is a vibrant community where young, passionate minds come together to grow, learn, and make a difference.
-               We focus on blending education with service, empowering you to chase your dreams,
-               develop personally and professionally, and create a positive impact."
+              "NSS KMIT is a vibrant community where young, passionate minds come together to grow, learn, and make a
+              difference. We focus on blending education with service, empowering you to chase your dreams, develop
+              personally and professionally, and create a positive&nbsp;impact."
             </p>
           </div>
         </div>
@@ -67,8 +106,9 @@ export default function HomePage() {
               <HandHeart className="w-12 h-12" />
             </div>
             <p className="text-lg max-w-3xl mx-auto">
-             In the NSS KMIT community, leadership and teamwork shine through hands-on collaborative projects.
-             We plan and execute initiatives together, honing skills to lead with purpose, support one another, and drive real impact for personal growth and community service.
+              In the NSS KMIT community, leadership and teamwork shine through hands-on collaborative projects. We plan
+              and execute initiatives together, honing skills to lead with purpose, support one another, and drive real
+              impact for personal growth and community&nbsp;service.
             </p>
             <h4 className="text-xl font-semibold mt-4">Leadership and Teamwork</h4>
           </div>
@@ -173,30 +213,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section className="py-16 bg-gradient-to-r from-cyan-500 to-blue-600 text-white">
+      {/* Testimonial Section with Carousel */}
+      <section className="relative py-16 bg-gradient-to-r from-cyan-500 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-sm font-semibold uppercase tracking-wide mb-8">Testimonial</h2>
 
-          <div className="mb-8">
+          {/* Navigation Buttons */}
+          <div className="absolute inset-y-0 left-0 flex items-center">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="bg-white/20 hover:bg-white/30 text-white rounded-full ml-4"
+              onClick={goToPreviousTestimonial}
+            >
+              <ArrowLeft className="h-6 w-6" />
+            </Button>
+          </div>
+          <div className="absolute inset-y-0 right-0 flex items-center">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="bg-white/20 hover:bg-white/30 text-white rounded-full mr-4"
+              onClick={goToNextTestimonial}
+            >
+              <ArrowRight className="h-6 w-6" />
+            </Button>
+          </div>
+
+          <div className="mb-8 transition-opacity duration-500 ease-in-out">
             <div className="w-20 h-20 mx-auto mb-6 rounded-full overflow-hidden">
-              <img src="/faculty-member-portrait.jpg" alt="Faculty Member" className="w-full h-full object-cover" />
+              <img
+                src={currentTestimonial.image}
+                alt={currentTestimonial.name}
+                className="w-full h-full object-cover"
+              />
             </div>
             <blockquote className="text-lg md:text-xl leading-relaxed mb-6">
-              "As the Secretary of Keshav Society, I am deeply proud of our volunteers' unwavering dedication. Their
-              commitment to community service, environmental sustainability, and education initiatives exemplifies the
-              true spirit of NSS. Through their selfless efforts, they continue to create meaningful change in society
-              and the communities they serve. Together, we continue to inspire fellow students to make a meaningful
-              impact in society."
+              {currentTestimonial.quote}
             </blockquote>
             <cite className="font-semibold">
-              Mrs. Dr. Anupama Namburu
+              {currentTestimonial.name}
               <br />
-              <span className="text-cyan-200">Secretary, Keshav Society</span>
+              <span className="text-cyan-200">{currentTestimonial.title}</span>
             </cite>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }
