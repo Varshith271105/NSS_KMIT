@@ -68,8 +68,8 @@ export default function HomePage() {
               <HandHeart className="w-12 h-12" />
             </div>
             <p className="text-lg max-w-3xl mx-auto">
-              Collaborative project planning and execution with the NSS framework from your leadership skills and
-              ability to work effectively as part of a team.
+             In the NSS KMIT community, leadership and teamwork shine through hands-on collaborative projects.
+             We plan and execute initiatives together, honing skills to lead with purpose, support one another, and drive real impact for personal growth and community service.
             </p>
             <h4 className="text-xl font-semibold mt-4">Leadership and Teamwork</h4>
           </div>
