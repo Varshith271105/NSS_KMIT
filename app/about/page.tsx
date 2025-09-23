@@ -123,20 +123,22 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a vibrant
-                student-led organization that has been at the forefront of community service and social development
-                since its inception. Our chapter is dedicated to fostering a spirit of service among students while
-                providing them with opportunities to contribute meaningfully to society.
+                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a dynamic,
+                student-led community dedicated to driving social good.
+                Since its start, NSS KMIT has led impactful community service and social development efforts,
+                inspiring students to grow while giving back.
+
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Through various initiatives ranging from educational programs and health camps to environmental
-                conservation and social outreach, our team of dedicated volunteers works tirelessly to bring positive
-                change and support to those in need. We believe in the power of collective action and the impact that
-                young minds can have when united for a common cause.
+                Our passionate volunteers lead diverse initiatives, including educational programs, health camps,
+                environmental efforts, and social outreach, to create meaningful change. 
+                From organizing health checkups to supporting local communities, we believe in the power of young
+                minds united for a shared purpose.
+
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Join us in our mission to make a difference, develop leadership skills, and create lasting positive
-                impact in our communities and beyond.
+                Join NSS KMIT to make a difference, build leadership skills,
+                and leave a lasting positive impact on society!
               </p>
             </div>
             <div className="flex justify-center">
