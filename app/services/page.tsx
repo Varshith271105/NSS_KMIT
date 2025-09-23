@@ -115,9 +115,9 @@ export default function ServicesPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">What We Do</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              At NSS KMIT, we are dedicated to serving and uplifting our communities through a range of impactful
-              initiatives. From educational programs and health camps to environmental conservation and social outreach,
-              our team of volunteers works tirelessly to bring positive change and support to those in need.
+              At NSS KMIT, we’re committed to uplifting communities through powerful initiatives. 
+              From educational drives and health camps to environmental care and social support,
+              our dedicated volunteers tirelessly create positive impact for those in need.
             </p>
           </div>
 
