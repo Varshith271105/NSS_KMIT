@@ -80,7 +80,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-cyan-400" />
-                <span className="text-gray-300 text-sm">nss@kmit.in</span>
+                <span className="text-gray-300 text-sm">nsskmitofficial@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} className="text-cyan-400" />
