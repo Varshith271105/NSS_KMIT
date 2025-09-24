@@ -96,11 +96,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      Main Office: +91 40 2763 2500
+                      Main Office: +91 81256 11565
                       <br />
-                      NSS Coordinator: +91 9876543210
+                      NSS Coordinator: +91 81256 11565
                       <br />
-                      Emergency (Blood): +91 9876543210
+                      Emergency (Blood): +91 95058 03916
                     </p>
                   </div>
                 </div>
