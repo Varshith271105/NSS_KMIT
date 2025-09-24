@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -24,13 +24,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                <Facebook size={20} />
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Instagram size={20} />
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                <Linkedin size={20} />
               </Link>
               <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Youtube size={20} />
