@@ -23,10 +23,10 @@ export function Footer() {
                 Empowering communities through service, leadership, and social impact. Join us in making a difference.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
+              <Link href="https://www.instagram.com/nss.kmit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">
+              <Link href="https://youtube.com/@nsskmitofficial?si=Q-V9zDj0ZyiPiPlg " className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Youtube size={20} />
               </Link>
             </div>
