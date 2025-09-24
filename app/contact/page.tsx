@@ -100,7 +100,7 @@ export default function ContactPage() {
                       <br />
                       NSS Coordinator: +91 81256 11565
                       <br />
-                      Emergency (Blood): +91 95058 03916
+                      Emergency (Blood): +91 81256 11565
                     </p>
                   </div>
                 </div>
