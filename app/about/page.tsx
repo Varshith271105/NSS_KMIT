@@ -74,6 +74,44 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* About NSS KMIT */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">What is NSS KMIT</h2>
+            <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a vibrant
+                student-led organization that has been at the forefront of community service and social development
+                since its inception. Our chapter is dedicated to fostering a spirit of service among students while
+                providing them with opportunities to contribute meaningfully to society.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Through various initiatives ranging from educational programs and health camps to environmental
+                conservation and social outreach, our team of dedicated volunteers works tirelessly to bring positive
+                change and support to those in need. We believe in the power of collective action and the impact that
+                young minds can have when united for a common cause.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Join us in our mission to make a difference, develop leadership skills, and create lasting positive
+                impact in our communities and beyond.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="/images/executive-board.png"
+                alt="NSS KMIT Executive Board 2024-2025"
+                className="rounded-lg shadow-xl max-w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -108,44 +146,6 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* About NSS KMIT */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">About NSS KMIT</h2>
-            <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The National Service Scheme (NSS) at Keshav Memorial Institute of Technology (KMIT) is a vibrant
-                student-led organization that has been at the forefront of community service and social development
-                since its inception. Our chapter is dedicated to fostering a spirit of service among students while
-                providing them with opportunities to contribute meaningfully to society.
-              </p>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Through various initiatives ranging from educational programs and health camps to environmental
-                conservation and social outreach, our team of dedicated volunteers works tirelessly to bring positive
-                change and support to those in need. We believe in the power of collective action and the impact that
-                young minds can have when united for a common cause.
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Join us in our mission to make a difference, develop leadership skills, and create lasting positive
-                impact in our communities and beyond.
-              </p>
-            </div>
-            <div className="flex justify-center">
-              <img
-                src="/images/executive-board.png"
-                alt="NSS KMIT Executive Board 2024-2025"
-                className="rounded-lg shadow-xl max-w-full h-auto"
-              />
-            </div>
           </div>
         </div>
       </section>
