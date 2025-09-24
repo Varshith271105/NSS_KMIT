@@ -19,8 +19,8 @@ export function Footer() {
               <span className="font-bold text-xl">NSS KMIT</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              National Service Scheme at KMIT - Empowering communities through service, leadership, and social impact.
-              Join us in making a difference.
+                National Service Scheme at KMIT<br/>
+                Empowering communities through service, leadership, and social impact. Join us in making a difference.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-300 hover:text-cyan-400 transition-colors">

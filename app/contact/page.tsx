@@ -126,11 +126,9 @@ export default function ContactPage() {
                     <Clock className="w-6 h-6 text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">Office Hours</h3>
+                    <h3 className="font-semibold text-slate-900 mb-1">Support Hours</h3>
                     <p className="text-gray-600">
-                      Monday - Friday: 9:00 AM - 5:00 PM
-                      <br />
-                      Saturday: 9:00 AM - 1:00 PM
+                      Monday - Saturday: 9:00 AM - 5:00 PM
                       <br />
                       Sunday: Closed (Emergency services available)
                     </p>
@@ -149,7 +147,7 @@ export default function ContactPage() {
                     <Facebook className="w-5 h-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/nss.kmit?igsh=MWp5OXh1aTVyamw1eQ=="
                     className="w-10 h-10 bg-pink-600 rounded-lg flex items-center justify-center text-white hover:bg-pink-700 transition-colors"
                   >
                     <Instagram className="w-5 h-5" />
@@ -161,7 +159,7 @@ export default function ContactPage() {
                     <Linkedin className="w-5 h-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@NSSKMITofficial"
                     className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white hover:bg-red-700 transition-colors"
                   >
                     <Youtube className="w-5 h-5" />

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Users, GraduationCap, HandHeart, Globe, ArrowLeft, ArrowRight } from "lucide-react";
+import { Users, GraduationCap, HandHeart, Globe, ArrowLeft, ArrowRight, UsersRound, Handshake } from "lucide-react";
 import { useState } from "react";
 
 export default function HomePage() {
@@ -75,7 +75,7 @@ export default function HomePage() {
               size="lg"
               className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg rounded-full transition-all duration-300 bg-transparent"
             >
-              <Link href="/about">Learn More</Link>
+              <Link href="/about">Know NSS KMIT</Link>
             </Button>
           </div>
         </div>
@@ -102,15 +102,15 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="flex justify-center space-x-4 mb-6">
-              <Users className="w-12 h-12" />
+              <Handshake className="w-12 h-12" />
               <HandHeart className="w-12 h-12" />
             </div>
+            <h4 className="text-xl font-semibold mt-4">Leadership and Teamwork</h4>
             <p className="text-lg max-w-3xl mx-auto">
               In the NSS KMIT community, leadership and teamwork shine through hands-on collaborative projects. We plan
               and execute initiatives together, honing skills to lead with purpose, support one another, and drive real
               impact for personal growth and community&nbsp;service.
             </p>
-            <h4 className="text-xl font-semibold mt-4">Leadership and Teamwork</h4>
           </div>
         </div>
       </section>
@@ -123,11 +123,10 @@ export default function HomePage() {
             <div>
               <div className="mb-8">
                 <h3 className="text-sm font-semibold text-cyan-600 uppercase tracking-wide mb-2">Empowering Lives</h3>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">Your Path to Growth, Impact, and Service</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">Where Service Meets Growth</h2>
                 <p className="text-gray-600 mb-6">
-                  The National Service Scheme (NSS) is a student-run organization focused on fostering personal
-                  development through community service, building a strong foundation for gaining enhanced leadership
-                  skills.
+                  The National Service Scheme (NSS) at KMIT empowers students to grow as socially responsible leaders.
+                  Through community projects and campus initiatives, members build skills and mindsets that last a lifetime.
                 </p>
               </div>
 
@@ -136,26 +135,30 @@ export default function HomePage() {
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
                   <span className="font-semibold text-slate-700">Personal Growth</span>
                 </div>
-                <p className="text-gray-600 ml-5">Enhance your leadership, communication, and organizational skills.</p>
+                <p className="text-gray-600 ml-5">Enhance your leadership, communication, and organizational skills while developing confidence.</p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
                   <span className="font-semibold text-slate-700">Social Impact</span>
                 </div>
-                <p className="text-gray-600 ml-5">Address social issues and contribute to community development.</p>
+                <p className="text-gray-600 ml-5">Address real social issues through meaningful service initiatives.
+                    Contribute directly to the growth and betterment of your community.
+                </p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
                   <span className="font-semibold text-slate-700">Skill Development</span>
                 </div>
-                <p className="text-gray-600 ml-5">Gain experience in project management, planning, and execution.</p>
+                <p className="text-gray-600 ml-5">Gain hands-on experience in planning, organizing, and executing projects.
+                      Build practical abilities in leadership, teamwork, and event management.
+                </p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
                   <span className="font-semibold text-slate-700">Networking</span>
                 </div>
                 <p className="text-gray-600 ml-5">
-                  Connect with like-minded individuals and build lasting relationships.
+                  Connect with like-minded peers and forge lasting relationships that inspire collaboration and future opportunities.
                 </p>
               </div>
 
@@ -170,37 +173,39 @@ export default function HomePage() {
             <div>
               <div className="mb-8">
                 <h3 className="text-sm font-semibold text-cyan-600 uppercase tracking-wide mb-2">You're Next!</h3>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">Experience the Thrill of Community Events</h2>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">Make a Difference with NSS KMIT</h2>
                 <p className="text-gray-600 mb-6">
-                  NSS events unlock personal growth, social impact, and lifelong skills for the future. Each experience
-                  is a unique opportunity to make a difference and develop leadership skills.
+                  NSS events unlock personal growth, social impact, and lifelong skills for the future by creating opportunities 
+                  to explore, innovate, and lead. Every activity is a platform to learn, collaborate, and inspire others.
                 </p>
               </div>
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                  <span className="font-semibold text-slate-700">Personal Growth</span>
+                  <span className="font-semibold text-slate-700">Community Service Initiatives</span>
                 </div>
-                <p className="text-gray-600 ml-5">Develop confidence, leadership, and communication skills.</p>
+                <p className="text-gray-600 ml-5">Join cleanliness drives, education support programs, 
+                  health check-up camps, and urban sustainability projects.
+                </p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                  <span className="font-semibold text-slate-700">Social Impact</span>
+                  <span className="font-semibold text-slate-700">Event Management Roles</span>
                 </div>
-                <p className="text-gray-600 ml-5">Make a real difference in your community through service.</p>
+                <p className="text-gray-600 ml-5">Plan and oversee major initiatives, manage volunteers, and ensure smooth execution.</p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                  <span className="font-semibold text-slate-700">Build Skills</span>
+                  <span className="font-semibold text-slate-700">Workshops & Training</span>
                 </div>
-                <p className="text-gray-600 ml-5">Gain practical experience in event management and teamwork.</p>
+                <p className="text-gray-600 ml-5">Attend sessions on sustainability, mental health, and civic engagement to broaden your perspective.</p>
 
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                  <span className="font-semibold text-slate-700">Expand Network</span>
+                  <span className="font-semibold text-slate-700">Collaborative Initiatives</span>
                 </div>
-                <p className="text-gray-600 ml-5">Connect with diverse groups and build professional relationships.</p>
+                <p className="text-gray-600 ml-5">Partner with communities, campus clubs, and civic groups to drive meaningful change.</p>
               </div>
 
               <div className="mt-8 flex justify-center">
